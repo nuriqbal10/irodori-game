@@ -1,26 +1,123 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --bg-dark: #0f0e13;
+  --bg-card: #181622;
+  --bg-inset: #121019;
+  --border-card: #282436;
+  --crimson: #e63946;
+  --gold: #ffb703;
+  --cyan: #00f0ff;
+  --emerald: #06d6a0;
+  --purple: #8338ec;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-dark);
+  color: #f4efe7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Arcade / Game Card */
+.game-card {
+  background: #181622;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 12px 30px -10px rgba(0, 0, 0, 0.7),
+    0 4px 10px rgba(0, 0, 0, 0.4),
+    inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.game-card:hover {
+  border-color: rgba(230, 57, 70, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 
+    0 16px 36px -10px rgba(230, 57, 70, 0.15),
+    0 6px 14px rgba(0, 0, 0, 0.5),
+    inset 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+
+/* Inset Well */
+.game-inset {
+  background: #121019;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Primary Game Button (Neon Crimson) */
+.game-btn-primary {
+  background: linear-gradient(135deg, #e63946 0%, #b81424 100%);
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 16px;
+  box-shadow: 
+    0 6px 16px rgba(230, 57, 70, 0.35),
+    inset 0 1px 2px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.15s ease;
+}
+
+.game-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 10px 24px rgba(230, 57, 70, 0.5),
+    inset 0 1px 2px rgba(255, 255, 255, 0.4);
+}
+
+.game-btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Gold Achievement Button */
+.game-btn-gold {
+  background: linear-gradient(135deg, #ffb703 0%, #fb8500 100%);
+  color: #121019;
+  font-weight: 800;
+  border-radius: 16px;
+  box-shadow: 
+    0 6px 16px rgba(255, 183, 3, 0.3),
+    inset 0 1px 2px rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.15s ease;
+}
+
+.game-btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(255, 183, 3, 0.45);
+}
+
+/* Secondary Button */
+.game-btn-secondary {
+  background: #201d2c;
+  color: #f4efe7;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.15s ease;
+}
+
+.game-btn-secondary:hover {
+  background: #2a263a;
+  border-color: rgba(255, 255, 255, 0.16);
+  transform: translateY(-2px);
+}
+
+/* Glow Text */
+.text-glow-crimson {
+  text-shadow: 0 0 12px rgba(230, 57, 70, 0.6);
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 12px rgba(255, 183, 3, 0.6);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
 }

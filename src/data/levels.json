@@ -1,0 +1,575 @@
+[
+  {
+    "id": "a1",
+    "levelCode": "A1",
+    "japaneseTitle": "入門",
+    "romajiTitle": "Nyuumon",
+    "title": "入門 (Starter / Pemula)",
+    "color": "emerald",
+    "description": "Level pemula untuk membangun dasar komunikasi bahasa Jepang dalam kehidupan sehari-hari, salam, perkenalan diri, makanan, dan aktivitas dasar.",
+    "lessons": [
+      {
+        "lessonNum": 1,
+        "topic": "はじめまして",
+        "title": "こんにちは (Salam & Perkenalan)",
+        "vocabCount": 24,
+        "kanjiCount": 0,
+        "bunpouCount": 0,
+        "audioCount": 35,
+        "illustrationCount": 22
+      },
+      {
+        "lessonNum": 2,
+        "topic": "はじめまして",
+        "title": "どうぞよろしく (Perkenalan Diri)",
+        "vocabCount": 49,
+        "kanjiCount": 0,
+        "bunpouCount": 0,
+        "audioCount": 30,
+        "illustrationCount": 14
+      },
+      {
+        "lessonNum": 3,
+        "topic": "私のこと",
+        "title": "よろしくお願いします",
+        "vocabCount": 36,
+        "kanjiCount": 4,
+        "bunpouCount": 6,
+        "audioCount": 11,
+        "illustrationCount": 3
+      },
+      {
+        "lessonNum": 4,
+        "topic": "私のこと",
+        "title": "東京に住んでいます",
+        "vocabCount": 58,
+        "kanjiCount": 5,
+        "bunpouCount": 4,
+        "audioCount": 24,
+        "illustrationCount": 10
+      },
+      {
+        "lessonNum": 5,
+        "topic": "好きな食べ物",
+        "title": "うどんが好きです",
+        "vocabCount": 54,
+        "kanjiCount": 3,
+        "bunpouCount": 9,
+        "audioCount": 35,
+        "illustrationCount": 7
+      },
+      {
+        "lessonNum": 6,
+        "topic": "好きな食べ物",
+        "title": "チ-ズバ-ガ-ください",
+        "vocabCount": 94,
+        "kanjiCount": 3,
+        "bunpouCount": 4,
+        "audioCount": 20,
+        "illustrationCount": 5
+      },
+      {
+        "lessonNum": 7,
+        "topic": "家と職場",
+        "title": "部屋が4つあります",
+        "vocabCount": 95,
+        "kanjiCount": 4,
+        "bunpouCount": 6,
+        "audioCount": 28,
+        "illustrationCount": 18
+      },
+      {
+        "lessonNum": 8,
+        "topic": "家と職場",
+        "title": "山田さんはどこにいますか？",
+        "vocabCount": 35,
+        "kanjiCount": 3,
+        "bunpouCount": 5,
+        "audioCount": 25,
+        "illustrationCount": 13
+      },
+      {
+        "lessonNum": 9,
+        "topic": "毎日の生活",
+        "title": "12時から1時まで昼休みです",
+        "vocabCount": 82,
+        "kanjiCount": 8,
+        "bunpouCount": 3,
+        "audioCount": 19,
+        "illustrationCount": 14
+      },
+      {
+        "lessonNum": 10,
+        "topic": "毎日の生活",
+        "title": "ホチキス貸してください",
+        "vocabCount": 74,
+        "kanjiCount": 7,
+        "bunpouCount": 7,
+        "audioCount": 31,
+        "illustrationCount": 9
+      },
+      {
+        "lessonNum": 11,
+        "topic": "私の好きなこと",
+        "title": "どんなマンガが好きですか？",
+        "vocabCount": 66,
+        "kanjiCount": 6,
+        "bunpouCount": 6,
+        "audioCount": 23,
+        "illustrationCount": 6
+      },
+      {
+        "lessonNum": 12,
+        "topic": "私の好きなこと",
+        "title": "いっしょに飲みに行きませんか？",
+        "vocabCount": 99,
+        "kanjiCount": 9,
+        "bunpouCount": 5,
+        "audioCount": 21,
+        "illustrationCount": 11
+      },
+      {
+        "lessonNum": 13,
+        "topic": "街を歩く",
+        "title": "このバスは空港に行きますか？",
+        "vocabCount": 77,
+        "kanjiCount": 9,
+        "bunpouCount": 6,
+        "audioCount": 33,
+        "illustrationCount": 10
+      },
+      {
+        "lessonNum": 14,
+        "topic": "街を歩く",
+        "title": "大きな建物ですね",
+        "vocabCount": 73,
+        "kanjiCount": 7,
+        "bunpouCount": 3,
+        "audioCount": 29,
+        "illustrationCount": 23
+      },
+      {
+        "lessonNum": 15,
+        "topic": "店で",
+        "title": "電池がほしいんですが…",
+        "vocabCount": 104,
+        "kanjiCount": 8,
+        "bunpouCount": 2,
+        "audioCount": 31,
+        "illustrationCount": 8
+      },
+      {
+        "lessonNum": 16,
+        "topic": "店で",
+        "title": "これ、いくらですか？",
+        "vocabCount": 120,
+        "kanjiCount": 10,
+        "bunpouCount": 3,
+        "audioCount": 33,
+        "illustrationCount": 51
+      },
+      {
+        "lessonNum": 17,
+        "topic": "休みの日に",
+        "title": "映画を見に行きました",
+        "vocabCount": 93,
+        "kanjiCount": 13,
+        "bunpouCount": 6,
+        "audioCount": 14,
+        "illustrationCount": 19
+      },
+      {
+        "lessonNum": 18,
+        "topic": "休みの日に",
+        "title": "温泉に入りたいです",
+        "vocabCount": 51,
+        "kanjiCount": 10,
+        "bunpouCount": 7,
+        "audioCount": 16,
+        "illustrationCount": 17
+      }
+    ]
+  },
+  {
+    "id": "a2-1",
+    "levelCode": "A2.1",
+    "japaneseTitle": "初級1",
+    "romajiTitle": "Shokyuu 1",
+    "title": "初級1 (Elementary 1 / Tingkat Dasar 1)",
+    "color": "blue",
+    "description": "Tingkat dasar untuk memperluas kemampuan percakapan, situasi di tempat kerja, berbelanja, cuaca, hobi, dan instruksi praktis.",
+    "lessons": [
+      {
+        "lessonNum": 1,
+        "topic": "今の私",
+        "title": "レストランで働いています",
+        "vocabCount": 68,
+        "kanjiCount": 17,
+        "bunpouCount": 4,
+        "audioCount": 27,
+        "illustrationCount": 16
+      },
+      {
+        "lessonNum": 2,
+        "topic": "今の私",
+        "title": "ゲームをするのが好きです",
+        "vocabCount": 66,
+        "kanjiCount": 15,
+        "bunpouCount": 6,
+        "audioCount": 17,
+        "illustrationCount": 23
+      },
+      {
+        "lessonNum": 3,
+        "topic": "季節と天気",
+        "title": "冬はとても寒くなります",
+        "vocabCount": 50,
+        "kanjiCount": 10,
+        "bunpouCount": 8,
+        "audioCount": 14,
+        "illustrationCount": 22
+      },
+      {
+        "lessonNum": 4,
+        "topic": "季節と天気",
+        "title": "昨日はすごい雨でしたね",
+        "vocabCount": 39,
+        "kanjiCount": 14,
+        "bunpouCount": 4,
+        "audioCount": 12,
+        "illustrationCount": 24
+      },
+      {
+        "lessonNum": 5,
+        "topic": "私の町",
+        "title": "とてもにぎやかで便利です",
+        "vocabCount": 52,
+        "kanjiCount": 13,
+        "bunpouCount": 7,
+        "audioCount": 14,
+        "illustrationCount": 23
+      },
+      {
+        "lessonNum": 6,
+        "topic": "私の町",
+        "title": "郵便局はどう行ったらいいですか？",
+        "vocabCount": 50,
+        "kanjiCount": 13,
+        "bunpouCount": 3,
+        "audioCount": 15,
+        "illustrationCount": 32
+      },
+      {
+        "lessonNum": 7,
+        "topic": "いっしょに出かける",
+        "title": "道に迷ってちょっと遅れます",
+        "vocabCount": 34,
+        "kanjiCount": 14,
+        "bunpouCount": 4,
+        "audioCount": 9,
+        "illustrationCount": 9
+      },
+      {
+        "lessonNum": 8,
+        "topic": "いっしょに出かける",
+        "title": "野球、したことありますか？",
+        "vocabCount": 48,
+        "kanjiCount": 15,
+        "bunpouCount": 6,
+        "audioCount": 22,
+        "illustrationCount": 20
+      },
+      {
+        "lessonNum": 9,
+        "topic": "日本語学習",
+        "title": "読み方を教えてもらえませんか？",
+        "vocabCount": 64,
+        "kanjiCount": 16,
+        "bunpouCount": 6,
+        "audioCount": 24,
+        "illustrationCount": 27
+      },
+      {
+        "lessonNum": 10,
+        "topic": "日本語学習",
+        "title": "日本語教室に参加したいんですが･･･",
+        "vocabCount": 70,
+        "kanjiCount": 18,
+        "bunpouCount": 7,
+        "audioCount": 11,
+        "illustrationCount": 3
+      },
+      {
+        "lessonNum": 11,
+        "topic": "おいしい料理",
+        "title": "肉と野菜は私が買って行きます",
+        "vocabCount": 92,
+        "kanjiCount": 16,
+        "bunpouCount": 5,
+        "audioCount": 26,
+        "illustrationCount": 36
+      },
+      {
+        "lessonNum": 12,
+        "topic": "おいしい料理",
+        "title": "お弁当、おいしそうですね",
+        "vocabCount": 53,
+        "kanjiCount": 14,
+        "bunpouCount": 6,
+        "audioCount": 20,
+        "illustrationCount": 29
+      },
+      {
+        "lessonNum": 13,
+        "topic": "仕事の連絡",
+        "title": "あと10分ぐらいで終わりそうです",
+        "vocabCount": 91,
+        "kanjiCount": 14,
+        "bunpouCount": 5,
+        "audioCount": 22,
+        "illustrationCount": 26
+      },
+      {
+        "lessonNum": 14,
+        "topic": "仕事の連絡",
+        "title": "休みを取ってもいいでしょうか？",
+        "vocabCount": 61,
+        "kanjiCount": 15,
+        "bunpouCount": 6,
+        "audioCount": 19,
+        "illustrationCount": 12
+      },
+      {
+        "lessonNum": 15,
+        "topic": "健康な生活",
+        "title": "熱があってのどが痛いんです",
+        "vocabCount": 97,
+        "kanjiCount": 16,
+        "bunpouCount": 6,
+        "audioCount": 18,
+        "illustrationCount": 31
+      },
+      {
+        "lessonNum": 16,
+        "topic": "健康な生活",
+        "title": "食べすぎないようにしています",
+        "vocabCount": 114,
+        "kanjiCount": 13,
+        "bunpouCount": 5,
+        "audioCount": 20,
+        "illustrationCount": 26
+      },
+      {
+        "lessonNum": 17,
+        "topic": "交際",
+        "title": "兄がくれたお守りです",
+        "vocabCount": 70,
+        "kanjiCount": 12,
+        "bunpouCount": 3,
+        "audioCount": 22,
+        "illustrationCount": 34
+      },
+      {
+        "lessonNum": 18,
+        "topic": "交際",
+        "title": "何かプレゼントをあげませんか？",
+        "vocabCount": 72,
+        "kanjiCount": 18,
+        "bunpouCount": 4,
+        "audioCount": 14,
+        "illustrationCount": 17
+      }
+    ]
+  },
+  {
+    "id": "a2-2",
+    "levelCode": "A2.2",
+    "japaneseTitle": "初級2",
+    "romajiTitle": "Shokyuu 2",
+    "title": "初級2 (Elementary 2 / Tingkat Dasar 2)",
+    "color": "indigo",
+    "description": "Tingkat lanjutan dasar untuk memperdalam interaksi sosial, pemecahan masalah, penanganan situasi darurat, opini, dan tata krama di Jepang.",
+    "lessons": [
+      {
+        "lessonNum": 1,
+        "topic": "私の周りの人たち",
+        "title": "先週、日本に来たばかりです",
+        "vocabCount": 57,
+        "kanjiCount": 13,
+        "bunpouCount": 5,
+        "audioCount": 16,
+        "illustrationCount": 10
+      },
+      {
+        "lessonNum": 2,
+        "topic": "私の周りの人たち",
+        "title": "まじめそうな人ですね",
+        "vocabCount": 74,
+        "kanjiCount": 13,
+        "bunpouCount": 4,
+        "audioCount": 20,
+        "illustrationCount": 16
+      },
+      {
+        "lessonNum": 3,
+        "topic": "レストランで",
+        "title": "アレルギーがあるので、食べられないんです",
+        "vocabCount": 104,
+        "kanjiCount": 19,
+        "bunpouCount": 4,
+        "audioCount": 20,
+        "illustrationCount": 21
+      },
+      {
+        "lessonNum": 4,
+        "topic": "レストランで",
+        "title": "しょうゆをつけないで食べてください",
+        "vocabCount": 91,
+        "kanjiCount": 10,
+        "bunpouCount": 6,
+        "audioCount": 30,
+        "illustrationCount": 50
+      },
+      {
+        "lessonNum": 5,
+        "topic": "旅行に行こう",
+        "title": "早く予約したほうがいいですよ",
+        "vocabCount": 88,
+        "kanjiCount": 18,
+        "bunpouCount": 6,
+        "audioCount": 22,
+        "illustrationCount": 34
+      },
+      {
+        "lessonNum": 6,
+        "topic": "旅行に行こう",
+        "title": "いろいろなところに行けて、よかったです",
+        "vocabCount": 114,
+        "kanjiCount": 17,
+        "bunpouCount": 6,
+        "audioCount": 18,
+        "illustrationCount": 53
+      },
+      {
+        "lessonNum": 7,
+        "topic": "地域のイベント",
+        "title": "雨が降ったら、ホールでやります",
+        "vocabCount": 110,
+        "kanjiCount": 20,
+        "bunpouCount": 3,
+        "audioCount": 15,
+        "illustrationCount": 13
+      },
+      {
+        "lessonNum": 8,
+        "topic": "地域のイベント",
+        "title": "屋台はどこかわかりますか？",
+        "vocabCount": 106,
+        "kanjiCount": 18,
+        "bunpouCount": 4,
+        "audioCount": 23,
+        "illustrationCount": 22
+      },
+      {
+        "lessonNum": 9,
+        "topic": "年中行事とマナー",
+        "title": "成人の日は、何をするんですか？",
+        "vocabCount": 112,
+        "kanjiCount": 17,
+        "bunpouCount": 9,
+        "audioCount": 20,
+        "illustrationCount": 16
+      },
+      {
+        "lessonNum": 10,
+        "topic": "年中行事とマナー",
+        "title": "どんな服を着て行けばいいですか？",
+        "vocabCount": 96,
+        "kanjiCount": 16,
+        "bunpouCount": 8,
+        "audioCount": 18,
+        "illustrationCount": 53
+      },
+      {
+        "lessonNum": 11,
+        "topic": "上手な買い物",
+        "title": "ポイントカードを忘れてしまいました",
+        "vocabCount": 100,
+        "kanjiCount": 14,
+        "bunpouCount": 7,
+        "audioCount": 25,
+        "illustrationCount": 16
+      },
+      {
+        "lessonNum": 12,
+        "topic": "上手な買い物",
+        "title": "こっちの店のほうが安いですね",
+        "vocabCount": 124,
+        "kanjiCount": 18,
+        "bunpouCount": 5,
+        "audioCount": 13,
+        "illustrationCount": 17
+      },
+      {
+        "lessonNum": 13,
+        "topic": "さまざまなサービス",
+        "title": "いろいろな資料を展示してあります",
+        "vocabCount": 88,
+        "kanjiCount": 17,
+        "bunpouCount": 5,
+        "audioCount": 15,
+        "illustrationCount": 21
+      },
+      {
+        "lessonNum": 14,
+        "topic": "さまざまなサービス",
+        "title": "前髪は、もう少し短く切ってもらえますか？",
+        "vocabCount": 134,
+        "kanjiCount": 20,
+        "bunpouCount": 2,
+        "audioCount": 14,
+        "illustrationCount": 52
+      },
+      {
+        "lessonNum": 15,
+        "topic": "自然と環境",
+        "title": "会議室の電気がついたままでした",
+        "vocabCount": 101,
+        "kanjiCount": 14,
+        "bunpouCount": 2,
+        "audioCount": 13,
+        "illustrationCount": 29
+      },
+      {
+        "lessonNum": 16,
+        "topic": "自然と環境",
+        "title": "地震が来ても、あわてて動かないでください",
+        "vocabCount": 195,
+        "kanjiCount": 13,
+        "bunpouCount": 5,
+        "audioCount": 26,
+        "illustrationCount": 90
+      },
+      {
+        "lessonNum": 17,
+        "topic": "私の人生",
+        "title": "日本語が前より話せるようになりました",
+        "vocabCount": 26,
+        "kanjiCount": 15,
+        "bunpouCount": 1,
+        "audioCount": 11,
+        "illustrationCount": 6
+      },
+      {
+        "lessonNum": 18,
+        "topic": "私の人生",
+        "title": "将来、自分の会社を作ろうと思います",
+        "vocabCount": 50,
+        "kanjiCount": 15,
+        "bunpouCount": 5,
+        "audioCount": 18,
+        "illustrationCount": 22
+      }
+    ]
+  }
+]

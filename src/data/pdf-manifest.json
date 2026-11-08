@@ -1,0 +1,856 @@
+[
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 1.pdf",
+    "title": "Bab 1",
+    "url": "/api/pdf/a1/modul/Bab%201.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 10.pdf",
+    "title": "Bab 10",
+    "url": "/api/pdf/a1/modul/Bab%2010.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 11.pdf",
+    "title": "Bab 11",
+    "url": "/api/pdf/a1/modul/Bab%2011.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 12.pdf",
+    "title": "Bab 12",
+    "url": "/api/pdf/a1/modul/Bab%2012.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 13.pdf",
+    "title": "Bab 13",
+    "url": "/api/pdf/a1/modul/Bab%2013.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 14.pdf",
+    "title": "Bab 14",
+    "url": "/api/pdf/a1/modul/Bab%2014.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 15.pdf",
+    "title": "Bab 15",
+    "url": "/api/pdf/a1/modul/Bab%2015.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 16.pdf",
+    "title": "Bab 16",
+    "url": "/api/pdf/a1/modul/Bab%2016.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 17.pdf",
+    "title": "Bab 17",
+    "url": "/api/pdf/a1/modul/Bab%2017.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 18.pdf",
+    "title": "Bab 18",
+    "url": "/api/pdf/a1/modul/Bab%2018.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 2.pdf",
+    "title": "Bab 2",
+    "url": "/api/pdf/a1/modul/Bab%202.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 3.pdf",
+    "title": "Bab 3",
+    "url": "/api/pdf/a1/modul/Bab%203.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 4.pdf",
+    "title": "Bab 4",
+    "url": "/api/pdf/a1/modul/Bab%204.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 5.pdf",
+    "title": "Bab 5",
+    "url": "/api/pdf/a1/modul/Bab%205.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 6.pdf",
+    "title": "Bab 6",
+    "url": "/api/pdf/a1/modul/Bab%206.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 7.pdf",
+    "title": "Bab 7",
+    "url": "/api/pdf/a1/modul/Bab%207.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 8.pdf",
+    "title": "Bab 8",
+    "url": "/api/pdf/a1/modul/Bab%208.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "modul",
+    "filename": "Bab 9.pdf",
+    "title": "Bab 9",
+    "url": "/api/pdf/a1/modul/Bab%209.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "Lembar Kerja Tata Bahasa (Tingkat Pemula) Indonesia (1).pdf",
+    "title": "Lembar Kerja Tata Bahasa (Tingkat Pemula) Indonesia (1)",
+    "url": "/api/pdf/a1/latihan/Lembar%20Kerja%20Tata%20Bahasa%20(Tingkat%20Pemula)%20Indonesia%20(1).pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab1.pdf",
+    "title": "TP(A1)  Bab1",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab1.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab10.pdf",
+    "title": "TP(A1)  Bab10",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab10.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab11.pdf",
+    "title": "TP(A1)  Bab11",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab11.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab12.pdf",
+    "title": "TP(A1)  Bab12",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab12.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab13.pdf",
+    "title": "TP(A1)  Bab13",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab13.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab14.pdf",
+    "title": "TP(A1)  Bab14",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab14.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab15.pdf",
+    "title": "TP(A1)  Bab15",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab15.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab16.pdf",
+    "title": "TP(A1)  Bab16",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab16.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab17.pdf",
+    "title": "TP(A1)  Bab17",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab17.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab18.pdf",
+    "title": "TP(A1)  Bab18",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab18.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab2.pdf",
+    "title": "TP(A1)  Bab2",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab2.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab3.pdf",
+    "title": "TP(A1)  Bab3",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab3.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab4.pdf",
+    "title": "TP(A1)  Bab4",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab4.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab5.pdf",
+    "title": "TP(A1)  Bab5",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab5.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab6.pdf",
+    "title": "TP(A1)  Bab6",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab6.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab7.pdf",
+    "title": "TP(A1)  Bab7",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab7.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab8.pdf",
+    "title": "TP(A1)  Bab8",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab8.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Bab9.pdf",
+    "title": "TP(A1)  Bab9",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Bab9.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1)  Kata-kata di ruang kelas.pdf",
+    "title": "TP(A1)  Kata-kata di ruang kelas",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20%20Kata-kata%20di%20ruang%20kelas.pdf"
+  },
+  {
+    "level": "a1",
+    "type": "latihan",
+    "filename": "TP(A1) Kunci Jawaban.pdf",
+    "title": "TP(A1) Kunci Jawaban",
+    "url": "/api/pdf/a1/latihan/TP(A1)%20Kunci%20Jawaban.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 1.pdf",
+    "title": "Bab 1",
+    "url": "/api/pdf/a2-1/modul/Bab%201.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 10.pdf",
+    "title": "Bab 10",
+    "url": "/api/pdf/a2-1/modul/Bab%2010.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 11.pdf",
+    "title": "Bab 11",
+    "url": "/api/pdf/a2-1/modul/Bab%2011.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 12.pdf",
+    "title": "Bab 12",
+    "url": "/api/pdf/a2-1/modul/Bab%2012.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 13.pdf",
+    "title": "Bab 13",
+    "url": "/api/pdf/a2-1/modul/Bab%2013.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 14.pdf",
+    "title": "Bab 14",
+    "url": "/api/pdf/a2-1/modul/Bab%2014.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 15.pdf",
+    "title": "Bab 15",
+    "url": "/api/pdf/a2-1/modul/Bab%2015.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 16.pdf",
+    "title": "Bab 16",
+    "url": "/api/pdf/a2-1/modul/Bab%2016.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 17.pdf",
+    "title": "Bab 17",
+    "url": "/api/pdf/a2-1/modul/Bab%2017.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 18.pdf",
+    "title": "Bab 18",
+    "url": "/api/pdf/a2-1/modul/Bab%2018.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 2.pdf",
+    "title": "Bab 2",
+    "url": "/api/pdf/a2-1/modul/Bab%202.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 3.pdf",
+    "title": "Bab 3",
+    "url": "/api/pdf/a2-1/modul/Bab%203.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 4.pdf",
+    "title": "Bab 4",
+    "url": "/api/pdf/a2-1/modul/Bab%204.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 5.pdf",
+    "title": "Bab 5",
+    "url": "/api/pdf/a2-1/modul/Bab%205.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 6.pdf",
+    "title": "Bab 6",
+    "url": "/api/pdf/a2-1/modul/Bab%206.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 7.pdf",
+    "title": "Bab 7",
+    "url": "/api/pdf/a2-1/modul/Bab%207.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 8.pdf",
+    "title": "Bab 8",
+    "url": "/api/pdf/a2-1/modul/Bab%208.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Bab 9.pdf",
+    "title": "Bab 9",
+    "url": "/api/pdf/a2-1/modul/Bab%209.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Daftar Kosakata Buku Tingkat Dasar 1 (Ver.2021-10-01).pdf",
+    "title": "Daftar Kosakata Buku Tingkat Dasar 1 (Ver.2021-10-01)",
+    "url": "/api/pdf/a2-1/modul/Daftar%20Kosakata%20Buku%20Tingkat%20Dasar%201%20(Ver.2021-10-01).pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "IRODORI Tips Kehidupan di Jepang TD1.pdf",
+    "title": "IRODORI Tips Kehidupan di Jepang TD1",
+    "url": "/api/pdf/a2-1/modul/IRODORI%20Tips%20Kehidupan%20di%20Jepang%20TD1.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "modul",
+    "filename": "Kunci Jawaban Buku Tingkat Dasar 1.pdf",
+    "title": "Kunci Jawaban Buku Tingkat Dasar 1",
+    "url": "/api/pdf/a2-1/modul/Kunci%20Jawaban%20Buku%20Tingkat%20Dasar%201.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "Lembar Kerja Tata Bahasa (Tingkat Dasar 1) Indonesia (1).pdf",
+    "title": "Lembar Kerja Tata Bahasa (Tingkat Dasar 1) Indonesia (1)",
+    "url": "/api/pdf/a2-1/latihan/Lembar%20Kerja%20Tata%20Bahasa%20(Tingkat%20Dasar%201)%20Indonesia%20(1).pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab1.pdf",
+    "title": "TD1 (A2-1) Bab1",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab1.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab10.pdf",
+    "title": "TD1 (A2-1) Bab10",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab10.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab11.pdf",
+    "title": "TD1 (A2-1) Bab11",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab11.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab12.pdf",
+    "title": "TD1 (A2-1) Bab12",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab12.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab13.pdf",
+    "title": "TD1 (A2-1) Bab13",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab13.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab14.pdf",
+    "title": "TD1 (A2-1) Bab14",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab14.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab15.pdf",
+    "title": "TD1 (A2-1) Bab15",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab15.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab16.pdf",
+    "title": "TD1 (A2-1) Bab16",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab16.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab2.pdf",
+    "title": "TD1 (A2-1) Bab2",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab2.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab3.pdf",
+    "title": "TD1 (A2-1) Bab3",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab3.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab4.pdf",
+    "title": "TD1 (A2-1) Bab4",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab4.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab5.pdf",
+    "title": "TD1 (A2-1) Bab5",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab5.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab6.pdf",
+    "title": "TD1 (A2-1) Bab6",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab6.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab7.pdf",
+    "title": "TD1 (A2-1) Bab7",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab7.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab8.pdf",
+    "title": "TD1 (A2-1) Bab8",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab8.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Bab9.pdf",
+    "title": "TD1 (A2-1) Bab9",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Bab9.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) Kunci Jawaban.pdf",
+    "title": "TD1 (A2-1) Kunci Jawaban",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20Kunci%20Jawaban.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) TD1 Bab17.pdf",
+    "title": "TD1 (A2-1) TD1 Bab17",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20TD1%20Bab17.pdf"
+  },
+  {
+    "level": "a2-1",
+    "type": "latihan",
+    "filename": "TD1 (A2-1) TD1 Bab18.pdf",
+    "title": "TD1 (A2-1) TD1 Bab18",
+    "url": "/api/pdf/a2-1/latihan/TD1%20(A2-1)%20TD1%20Bab18.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 1.pdf",
+    "title": "Bab 1",
+    "url": "/api/pdf/a2-2/modul/Bab%201.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 10.pdf",
+    "title": "Bab 10",
+    "url": "/api/pdf/a2-2/modul/Bab%2010.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 11.pdf",
+    "title": "Bab 11",
+    "url": "/api/pdf/a2-2/modul/Bab%2011.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 12.pdf",
+    "title": "Bab 12",
+    "url": "/api/pdf/a2-2/modul/Bab%2012.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 13.pdf",
+    "title": "Bab 13",
+    "url": "/api/pdf/a2-2/modul/Bab%2013.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 14.pdf",
+    "title": "Bab 14",
+    "url": "/api/pdf/a2-2/modul/Bab%2014.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 15.pdf",
+    "title": "Bab 15",
+    "url": "/api/pdf/a2-2/modul/Bab%2015.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 16.pdf",
+    "title": "Bab 16",
+    "url": "/api/pdf/a2-2/modul/Bab%2016.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 17.pdf",
+    "title": "Bab 17",
+    "url": "/api/pdf/a2-2/modul/Bab%2017.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 18.pdf",
+    "title": "Bab 18",
+    "url": "/api/pdf/a2-2/modul/Bab%2018.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 2.pdf",
+    "title": "Bab 2",
+    "url": "/api/pdf/a2-2/modul/Bab%202.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 3.pdf",
+    "title": "Bab 3",
+    "url": "/api/pdf/a2-2/modul/Bab%203.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 4.pdf",
+    "title": "Bab 4",
+    "url": "/api/pdf/a2-2/modul/Bab%204.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 5.pdf",
+    "title": "Bab 5",
+    "url": "/api/pdf/a2-2/modul/Bab%205.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 6.pdf",
+    "title": "Bab 6",
+    "url": "/api/pdf/a2-2/modul/Bab%206.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 7.pdf",
+    "title": "Bab 7",
+    "url": "/api/pdf/a2-2/modul/Bab%207.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 8.pdf",
+    "title": "Bab 8",
+    "url": "/api/pdf/a2-2/modul/Bab%208.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Bab 9.pdf",
+    "title": "Bab 9",
+    "url": "/api/pdf/a2-2/modul/Bab%209.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Informasi Publikasi Buku Tingkat Dasar 2.pdf",
+    "title": "Informasi Publikasi Buku Tingkat Dasar 2",
+    "url": "/api/pdf/a2-2/modul/Informasi%20Publikasi%20Buku%20Tingkat%20Dasar%202.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "IRODORI Tips Kehidupan di Jepang TD2.pdf",
+    "title": "IRODORI Tips Kehidupan di Jepang TD2",
+    "url": "/api/pdf/a2-2/modul/IRODORI%20Tips%20Kehidupan%20di%20Jepang%20TD2.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Kunci Jawaban Buku Tingkat Dasar 2.pdf",
+    "title": "Kunci Jawaban Buku Tingkat Dasar 2",
+    "url": "/api/pdf/a2-2/modul/Kunci%20Jawaban%20Buku%20Tingkat%20Dasar%202.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "modul",
+    "filename": "Pedoman Penggunaan Buku Tingkat Dasar 2.pdf",
+    "title": "Pedoman Penggunaan Buku Tingkat Dasar 2",
+    "url": "/api/pdf/a2-2/modul/Pedoman%20Penggunaan%20Buku%20Tingkat%20Dasar%202.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "Lembar Kerja Tata Bahasa (Tingkat Dasar 2) Indonesia.pdf",
+    "title": "Lembar Kerja Tata Bahasa (Tingkat Dasar 2) Indonesia",
+    "url": "/api/pdf/a2-2/latihan/Lembar%20Kerja%20Tata%20Bahasa%20(Tingkat%20Dasar%202)%20Indonesia.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab1.pdf",
+    "title": "TD2(A2-2)  Bab1",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab1.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab10.pdf",
+    "title": "TD2(A2-2)  Bab10",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab10.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab11.pdf",
+    "title": "TD2(A2-2)  Bab11",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab11.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab12.pdf",
+    "title": "TD2(A2-2)  Bab12",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab12.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab2.pdf",
+    "title": "TD2(A2-2)  Bab2",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab2.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab3.pdf",
+    "title": "TD2(A2-2)  Bab3",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab3.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab4.pdf",
+    "title": "TD2(A2-2)  Bab4",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab4.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab5.pdf",
+    "title": "TD2(A2-2)  Bab5",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab5.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab6.pdf",
+    "title": "TD2(A2-2)  Bab6",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab6.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab7.pdf",
+    "title": "TD2(A2-2)  Bab7",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab7.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab8.pdf",
+    "title": "TD2(A2-2)  Bab8",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab8.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2)  Bab9.pdf",
+    "title": "TD2(A2-2)  Bab9",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20%20Bab9.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2) Bab13.pdf",
+    "title": "TD2(A2-2) Bab13",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20Bab13.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2) Bab14.pdf",
+    "title": "TD2(A2-2) Bab14",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20Bab14.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2) Bab15.pdf",
+    "title": "TD2(A2-2) Bab15",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20Bab15.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2) Bab16.pdf",
+    "title": "TD2(A2-2) Bab16",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20Bab16.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2) Bab17.pdf",
+    "title": "TD2(A2-2) Bab17",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20Bab17.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2) Bab18.pdf",
+    "title": "TD2(A2-2) Bab18",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20Bab18.pdf"
+  },
+  {
+    "level": "a2-2",
+    "type": "latihan",
+    "filename": "TD2(A2-2) Kunci Jawaban.pdf",
+    "title": "TD2(A2-2) Kunci Jawaban",
+    "url": "/api/pdf/a2-2/latihan/TD2(A2-2)%20Kunci%20Jawaban.pdf"
+  }
+]

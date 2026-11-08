@@ -1,0 +1,326 @@
+{
+  "facilityId": "fac_shokudou",
+  "facilityNameJapanese": "食堂 (しょくどう)",
+  "facilityNameIndonesian": "Kantin & Ruang Makan",
+  "theme": "RESTAURANT",
+  "totalBoxes": 12,
+  "gateQuiz": {
+    "prompt": "Tempat untuk makan siang dan memesan makanan di sekolah/asrama adalah...",
+    "correctAnswer": "しょくどう",
+    "options": ["しょくどう", "りょう", "としょしつ", "えき"]
+  },
+  "boxes": [
+    {
+      "boxId": "box_sho_01",
+      "position": { "x": 100, "y": 120 },
+      "step1_noun": {
+        "word": "はし",
+        "kanji": "箸",
+        "meaning": "Sumpit",
+        "clue": "Dua batang kayu kecil alat makan khas Jepang...",
+        "options": ["はし", "フォーク", "スプーン"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "たべる",
+        "masuForm": "たべます",
+        "verbGroup": "GROUP_2",
+        "missionPrompt": "Tolong ubah 'たべます' (Makan) ke bentuk instruksi/penawaran santun (~てください)!",
+        "targetConjugated": "たべて",
+        "options": ["たべて", "たべって", "たべないで", "たべた"],
+        "explanation": "Kata kerja Golongan 2: Buang [ます] tambah [て]: たべます ➔ たべて."
+      },
+      "step3_sentence": {
+        "targetSentence": "はし で すし を たべて ください",
+        "meaningIndonesian": "Silakan makan sushi menggunakan sumpit",
+        "tokens": ["はし で", "すし を", "たべて ください"],
+        "distractors": ["に", "が", "のみます"]
+      }
+    },
+    {
+      "boxId": "box_sho_02",
+      "position": { "x": 180, "y": 120 },
+      "step1_noun": {
+        "word": "おさら",
+        "kanji": "お皿",
+        "meaning": "Piring Makan",
+        "clue": "Wadah datar keramik untuk menaruh lauk pauk...",
+        "options": ["おさら", "コップ", "おわん"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "かたづける",
+        "masuForm": "かたづけます",
+        "verbGroup": "GROUP_2",
+        "missionPrompt": "Tolong ubah 'かたづけます' (Merapikan/Membereskan) ke bentuk santun (~てください)!",
+        "targetConjugated": "かたづけて",
+        "options": ["かたづけて", "かたづけって", "かたづけないで", "かたづけた"],
+        "explanation": "Kata kerja Golongan 2: Buang [ます] tambah [て]: かたづけます ➔ かたづけて."
+      },
+      "step3_sentence": {
+        "targetSentence": "しょくじ の あと おさら を かたづけて ください",
+        "meaningIndonesian": "Setelah makan, tolong bereskan dan rapikan piringnya",
+        "tokens": ["しょくじ の あと", "おさら を", "かたづけて ください"],
+        "distractors": ["で", "に", "かたづけます"]
+      }
+    },
+    {
+      "boxId": "box_sho_03",
+      "position": { "x": 260, "y": 120 },
+      "step1_noun": {
+        "word": "コップ",
+        "kanji": "杯",
+        "meaning": "Gelas Kaca/Plastik",
+        "clue": "Wadah silinder untuk meminum air atau jus...",
+        "options": ["コップ", "ボトル", "おさら"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "のむ",
+        "masuForm": "のみます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'のみます' (Minum) ke bentuk permohonan santun (~てください)!",
+        "targetConjugated": "のんで",
+        "options": ["のんで", "のみて", "のまないで", "のんだ"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [み/mi] berubah menjadi [んで/nde]: のみます ➔ のんで."
+      },
+      "step3_sentence": {
+        "targetSentence": "コップ で みず を のんで ください",
+        "meaningIndonesian": "Silakan minum air menggunakan gelas",
+        "tokens": ["コップ で", "みず を", "のんで ください"],
+        "distractors": ["に", "を", "たべます"]
+      }
+    },
+    {
+      "boxId": "box_sho_04",
+      "position": { "x": 340, "y": 120 },
+      "step1_noun": {
+        "word": "スプーン",
+        "kanji": "匙",
+        "meaning": "Sendok",
+        "clue": "Alat makan cekung untuk menyantap sup atau kari...",
+        "options": ["スプーン", "フォーク", "はし"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "たべる",
+        "masuForm": "たべます",
+        "verbGroup": "GROUP_2",
+        "missionPrompt": "Pola baku pernyataan aksi sehari-hari menggunakan bentuk -Masu!",
+        "targetConjugated": "たべます",
+        "options": ["たべます", "のみます", "つかいます", "あけます"],
+        "explanation": "Bentuk sopan netral sehari-hari: たべます."
+      },
+      "step3_sentence": {
+        "targetSentence": "スプーン で カレーライス を たべます",
+        "meaningIndonesian": "Saya makan nasi kari menggunakan sendok",
+        "tokens": ["スプーン で", "カレーライス を", "たべます"],
+        "distractors": ["に", "が", "のみます"]
+      }
+    },
+    {
+      "boxId": "box_sho_05",
+      "position": { "x": 100, "y": 220 },
+      "step1_noun": {
+        "word": "ていしょく",
+        "kanji": "定食",
+        "meaning": "Paket Makanan Lengkap",
+        "clue": "Satu set hidangan lengkap: nasi, sup miso, dan lauk...",
+        "options": ["ていしょく", "おべんとう", "ラーメン"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "ちゅうもんする",
+        "masuForm": "ちゅうもんします",
+        "verbGroup": "GROUP_3",
+        "missionPrompt": "Tolong ubah kata kerja Golongan 3 'ちゅうもんします' (Memesan) ke bentuk -Te kudasai!",
+        "targetConjugated": "ちゅうもんして",
+        "options": ["ちゅうもんして", "ちゅうもんしって", "ちゅうもんしないで", "ちゅうもんした"],
+        "explanation": "Kata kerja Golongan 3 (Suru) berubah menjadi [して/shite]: します ➔ して."
+      },
+      "step3_sentence": {
+        "targetSentence": "この Aていしょく を ちゅうもんして ください",
+        "meaningIndonesian": "Tolong pesankan paket A set ini",
+        "tokens": ["この", "Aていしょく を", "ちゅうもんして ください"],
+        "distractors": ["で", "に", "のみます"]
+      }
+    },
+    {
+      "boxId": "box_sho_06",
+      "position": { "x": 180, "y": 220 },
+      "step1_noun": {
+        "word": "おちゃ",
+        "kanji": "お茶",
+        "meaning": "Teh Hijau Panas/Dingin",
+        "clue": "Minuman tradisional khas Jepang dari daun teh...",
+        "options": ["おちゃ", "ジュース", "コーヒー"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "のむ",
+        "masuForm": "のみます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'のみます' (Minum) ke bentuk izin santun (~ても いいですか)!",
+        "targetConjugated": "のんでも",
+        "options": ["のんでも", "のみても", "のまないでも", "のんだら"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [み/mi] berbunyi sengau: のみます ➔ のんで + も = のんでも."
+      },
+      "step3_sentence": {
+        "targetSentence": "この あたたかい おちゃ を のんでも いいですか",
+        "meaningIndonesian": "Bolehkah saya meminum teh hangat ini?",
+        "tokens": ["この", "あたたかい おちゃ を", "のんでも", "いいですか"],
+        "distractors": ["で", "に", "たべます"]
+      }
+    },
+    {
+      "boxId": "box_sho_07",
+      "position": { "x": 260, "y": 220 },
+      "step1_noun": {
+        "word": "て",
+        "kanji": "手",
+        "meaning": "Tangan",
+        "clue": "Anggota tubuh yang wajib dicuci sebelum menyantap makanan...",
+        "options": ["て", "くち", "め"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "あらう",
+        "masuForm": "あらいます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'あらいます' (Mencuci) ke bentuk urutan aksi (~て から / setelah)!",
+        "targetConjugated": "あらって",
+        "options": ["あらって", "あらいって", "あらわないで", "あらった"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [い/i] berubah menjadi sokuon [って/tte]: あらいます ➔ あらって."
+      },
+      "step3_sentence": {
+        "targetSentence": "ごはん の まえ に て を あらって ください",
+        "meaningIndonesian": "Sebelum makan, tolong cuci tangan Anda",
+        "tokens": ["ごはん の まえ に", "て を", "あらって ください"],
+        "distractors": ["で", "から", "のみます"]
+      }
+    },
+    {
+      "boxId": "box_sho_08",
+      "position": { "x": 340, "y": 220 },
+      "step1_noun": {
+        "word": "たばこ",
+        "kanji": "煙草",
+        "meaning": "Rokok",
+        "clue": "Batang tembakau yang dilarang di area kantin...",
+        "options": ["たばこ", "ライター", "マッチ"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "すう",
+        "masuForm": "すいます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'すいます' (Menghisap) ke bentuk larangan santun (~ないで ください)!",
+        "targetConjugated": "すわないで",
+        "options": ["すわないで", "すないで", "すって", "すわなかった"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [い/i] berubah menjadi [わ/wa] + ないで: すいます ➔ すわないで."
+      },
+      "step3_sentence": {
+        "targetSentence": "しょくどう で たばこ を すわないで ください",
+        "meaningIndonesian": "Tolong jangan merokok di dalam kantin",
+        "tokens": ["しょくどう で", "たばこ を", "すわないで ください"],
+        "distractors": ["に", "から", "すいます"]
+      }
+    },
+    {
+      "boxId": "box_sho_09",
+      "position": { "x": 100, "y": 320 },
+      "step1_noun": {
+        "word": "しお",
+        "kanji": "塩",
+        "meaning": "Garam Dapur",
+        "clue": "Bumbu kristal putih berasa asin di atas meja...",
+        "options": ["しお", "さとう", "しょうゆ"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "とる",
+        "masuForm": "とります",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'とります' (Mengambilkan) ke bentuk permohonan santun (~てください)!",
+        "targetConjugated": "とって",
+        "options": ["とって", "とりて", "とらないで", "とった"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [り/ri] berubah menjadi sokuon [って/tte]: とります ➔ とって."
+      },
+      "step3_sentence": {
+        "targetSentence": "すみません その しお を とって ください",
+        "meaningIndonesian": "Permisi, tolong ambilkan garam itu",
+        "tokens": ["すみません", "その しお を", "とって ください"],
+        "distractors": ["で", "に", "とります"]
+      }
+    },
+    {
+      "boxId": "box_sho_10",
+      "position": { "x": 180, "y": 320 },
+      "step1_noun": {
+        "word": "おかね",
+        "kanji": "お金",
+        "meaning": "Uang Pembayaran",
+        "clue": "Uang tunai kertas atau koin untuk membayar makanan...",
+        "options": ["おかね", "カード", "サイフ"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "はらう",
+        "masuForm": "はらいます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'はらいます' (Membayar) ke bentuk kewajiban kerja (~なければ なりません)!",
+        "targetConjugated": "はらわなければ",
+        "options": ["はらわなければ", "はらわなくて", "はらって", "はらいなければ"],
+        "explanation": "Bentuk kewajiban [Nai-form buang -i + kereba narimasen]: はらいます ➔ はらわなければ なりません."
+      },
+      "step3_sentence": {
+        "targetSentence": "レジ で おかね を はらわなければ なりません",
+        "meaningIndonesian": "Harus membayar uang di meja kasir",
+        "tokens": ["レジ で", "おかね を", "はらわなければ なりません"],
+        "distractors": ["に", "から", "はらいます"]
+      }
+    },
+    {
+      "boxId": "box_sho_11",
+      "position": { "x": 260, "y": 320 },
+      "step1_noun": {
+        "word": "せき",
+        "kanji": "席",
+        "meaning": "Kursi Tempat Duduk",
+        "clue": "Tempat duduk yang disediakan untuk pelanggan...",
+        "options": ["せき", "へや", "つくえ"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "すわる",
+        "masuForm": "すわります",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'すわります' (Duduk) ke bentuk izin santun (~ても いいですか)!",
+        "targetConjugated": "すわっても",
+        "options": ["すわっても", "すわりても", "すわらないでも", "すわったら"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [り/ri] berubah menjadi sokuon [って/tte]: すわります ➔ すわって + も."
+      },
+      "step3_sentence": {
+        "targetSentence": "この せき に すわっても いいですか",
+        "meaningIndonesian": "Bolehkah saya duduk di tempat duduk ini?",
+        "tokens": ["この", "せき に", "すわっても", "いいですか"],
+        "distractors": ["で", "を", "すわります"]
+      }
+    },
+    {
+      "boxId": "box_sho_12",
+      "position": { "x": 340, "y": 320 },
+      "step1_noun": {
+        "word": "ティッシュ",
+        "kanji": "薄紙",
+        "meaning": "Tissue Pembersih Meja",
+        "clue": "Kertas lembut untuk mengeringkan dan mengelap meja...",
+        "options": ["ティッシュ", "タオル", "ふきん"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "ふく",
+        "masuForm": "ふきます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'ふきます' (Mengelap/Menyeka) ke bentuk instruksi santun (~てください)!",
+        "targetConjugated": "ふいて",
+        "options": ["ふいて", "ふって", "ふかないで", "ふいた"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [き/ki] berubah menjadi [いて/ite]: ふきます ➔ ふいて."
+      },
+      "step3_sentence": {
+        "targetSentence": "ティッシュ で つくえ を ふいて ください",
+        "meaningIndonesian": "Tolong lap meja menggunakan tissue",
+        "tokens": ["ティッシュ で", "つくえ を", "ふいて ください"],
+        "distractors": ["に", "が", "ふきます"]
+      }
+    }
+  ]
+}

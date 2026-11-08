@@ -1,0 +1,42 @@
+{
+  "id": "a1_ch01",
+  "level": "A1",
+  "title_id": "Perkenalan diri",
+  "title_ja": "はじめまして",
+  "location": "station",
+  "vocab": [
+    {"id": "a1_ch01_v001", "kanji": "私", "kana": "わたし", "romaji": "watashi", "meaning_id": "saya", "pos": "pronoun", "audio": "a1/ch01/watashi.ogg"},
+    {"id": "a1_ch01_v002", "kanji": "学生", "kana": "がくせい", "romaji": "gakusei", "meaning_id": "pelajar", "pos": "noun"}
+  ],
+  "kanji": [
+    {"id": "a1_ch01_k001", "char": "私", "onyomi": ["シ"], "kunyomi": ["わたし"], "meaning_id": "pribadi, saya", "examples": ["私", "私立"]}
+  ],
+  "grammar": [
+    {"id": "a1_ch01_g001", "pattern": "AはBです", "explanation_id": "Menyatakan 'A adalah B'.",
+     "examples": [{"ja": "私は学生です。", "kana": "わたしはがくせいです。", "id_translation": "Saya adalah pelajar."}]}
+  ],
+  "listening": [
+    {"id": "a1_ch01_l001", "audio": "a1/ch01/l001.ogg", "transcript_ja": "はじめまして。わたしはリナです。",
+     "questions": [{"id": "a1_ch01_l001_q1", "type": "listening_pick", "prompt": "Siapa nama pembicara?",
+       "choices": ["リナ", "ケン", "ユキ"], "answer": "リナ", "explanation_id": "Pembicara menyebut namanya Rina.", "tags": ["name"]}]}
+  ],
+  "reading": [
+    {"id": "a1_ch01_r001", "text_ja": "私はリナです。学生です。",
+     "questions": [{"id": "a1_ch01_r001_q1", "type": "multiple_choice", "prompt": "Rina adalah siapa?",
+       "choices": ["Pelajar", "Guru", "Dokter"], "answer": "Pelajar", "explanation_id": "学生 berarti pelajar.", "tags": ["reading"]}]}
+  ],
+  "conversation": [
+    {"id": "a1_ch01_c001", "start": "n1", "nodes": {
+      "n1": {"speaker": "npc_staff", "ja": "こんにちは。お名前は？", "kana": "こんにちは。おなまえは？", "id": "Halo. Siapa namamu?",
+             "choices": [
+               {"ja": "私はリナです。", "next": "n2", "score": 1},
+               {"ja": "さようなら。", "next": "n3", "score": 0}]},
+      "n2": {"speaker": "npc_staff", "ja": "よろしくお願いします。", "id": "Mohon bantuannya.", "end": true},
+      "n3": {"speaker": "npc_staff", "ja": "えっ？", "id": "Eh?", "next": "n1"}
+    }}
+  ],
+  "expressions": [
+    {"id": "a1_ch01_e001", "situation_id": "Bertemu orang untuk pertama kali", "options": ["はじめまして", "ありがとう", "いただきます"],
+     "correct": "はじめまして", "explanation_id": "Diucapkan saat pertama kali bertemu."}
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "facilityId": "fac_kyoushitsu",
+  "facilityNameJapanese": "教室 (きょうしつ)",
+  "facilityNameIndonesian": "Ruang Kelas",
+  "theme": "CLASSROOM_JP",
+  "totalBoxes": 12,
+  "gateQuiz": {
+    "prompt": "Tempat sensei mengajar dan siswa belajar bersama adalah...",
+    "correctAnswer": "きょうしつ",
+    "options": ["きょうしつ", "しょくどう", "じむしつ", "といれ"]
+  },
+  "boxes": [
+    {
+      "boxId": "box_kyo_01",
+      "position": { "x": 120, "y": 140 },
+      "step1_noun": {
+        "word": "えんぴつ",
+        "kanji": "鉛筆",
+        "meaning": "Pensil",
+        "clue": "Alat tulis berinti karbon grafit dari kayu...",
+        "options": ["えんぴつ", "はさみ", "じしょ"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "かく",
+        "masuForm": "かきます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'かきます' (Menulis) ke bentuk permohonan santun (~てください)!",
+        "targetConjugated": "かいて",
+        "options": ["かいて", "かきて", "かかないで", "かいた"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [き/ki] berubah menjadi [いて/ite]: かきます ➔ かいて."
+      },
+      "step3_sentence": {
+        "targetSentence": "えんぴつ で なまえ を かいて ください",
+        "meaningIndonesian": "Tolong tulis nama dengan pensil",
+        "tokens": ["えんぴつ", "で", "なまえ", "を", "かいて ください"],
+        "distractors": ["に", "が", "かきます"]
+      }
+    },
+    {
+      "boxId": "box_kyo_02",
+      "position": { "x": 180, "y": 140 },
+      "step1_noun": {
+        "word": "けしごむ",
+        "kanji": "消しゴム",
+        "meaning": "Penghapus Karet",
+        "clue": "Benda elastis untuk menghapus coretan pensil...",
+        "options": ["けしごむ", "ノート", "ものさし"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "つかう",
+        "masuForm": "つかいます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'つかいます' (Memakai) ke bentuk izin santun (~ても いいですか)!",
+        "targetConjugated": "つかって",
+        "options": ["つかって", "つかいて", "つかわないで", "つかった"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [い/i] berubah menjadi sokuon [って/tte]: つかいます ➔ つかって."
+      },
+      "step3_sentence": {
+        "targetSentence": "この けしごむ を つかっても いいですか",
+        "meaningIndonesian": "Bolehkah saya memakai penghapus ini?",
+        "tokens": ["この", "けしごむ", "を", "つかっても", "いいですか"],
+        "distractors": ["で", "に", "つかいます"]
+      }
+    },
+    {
+      "boxId": "box_kyo_03",
+      "position": { "x": 260, "y": 140 },
+      "step1_noun": {
+        "word": "きょうかしょ",
+        "kanji": "教科書",
+        "meaning": "Buku Pelajaran / Teks",
+        "clue": "Buku panduan utama siswa yang dibagikan guru...",
+        "options": ["きょうかしょ", "しんぶん", "ざっし"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "あける",
+        "masuForm": "あけます",
+        "verbGroup": "GROUP_2",
+        "missionPrompt": "Tolong ubah 'あけます' (Membuka) ke bentuk instruksi santun (~てください)!",
+        "targetConjugated": "あけて",
+        "options": ["あけて", "あけって", "あかないで", "あけた"],
+        "explanation": "Kata kerja Golongan 2: Cukup buang [ます] lalu tambah [て]: あけます ➔ あけて."
+      },
+      "step3_sentence": {
+        "targetSentence": "きょうかしょ の 10ページ を あけて ください",
+        "meaningIndonesian": "Silakan buka buku teks halaman 10",
+        "tokens": ["きょうかしょ の", "10ページ", "を", "あけて ください"],
+        "distractors": ["で", "に", "あけます"]
+      }
+    },
+    {
+      "boxId": "box_kyo_04",
+      "position": { "x": 340, "y": 70 },
+      "step1_noun": {
+        "word": "こくばん",
+        "kanji": "黒板",
+        "meaning": "Papan Tulis",
+        "clue": "Papan hitam/putih besar di depan kelas...",
+        "options": ["こくばん", "まど", "カレンダー"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "みる",
+        "masuForm": "みます",
+        "verbGroup": "GROUP_2",
+        "missionPrompt": "Tolong ubah 'みます' (Melihat/Memperhatikan) ke bentuk instruksi santun (~てください)!",
+        "targetConjugated": "みて",
+        "options": ["みて", "みって", "みないで", "みた"],
+        "explanation": "Kata kerja Golongan 2: Buang [ます] tambah [て]: みます ➔ みて."
+      },
+      "step3_sentence": {
+        "targetSentence": "まえ の こくばん を みて ください",
+        "meaningIndonesian": "Tolong perhatikan papan tulis di depan",
+        "tokens": ["まえ の", "こくばん", "を", "みて ください"],
+        "distractors": ["で", "に", "みます"]
+      }
+    },
+    {
+      "boxId": "box_kyo_05",
+      "position": { "x": 120, "y": 240 },
+      "step1_noun": {
+        "word": "いす",
+        "kanji": "椅子",
+        "meaning": "Kursi",
+        "clue": "Perabot berkaki empat tempat siswa duduk...",
+        "options": ["いす", "つくえ", "ベッド"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "すわる",
+        "masuForm": "すわります",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'すわります' (Duduk) ke bentuk permohonan santun (~てください)!",
+        "targetConjugated": "すわって",
+        "options": ["すわって", "すわりて", "すわらないで", "すわった"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [り/ri] berubah menjadi sokuon [って/tte]: すわります ➔ すわって."
+      },
+      "step3_sentence": {
+        "targetSentence": "この いす に すわって ください",
+        "meaningIndonesian": "Silakan duduk di kursi ini",
+        "tokens": ["この", "いす", "に", "すわって ください"],
+        "distractors": ["で", "を", "すわります"]
+      }
+    },
+    {
+      "boxId": "box_kyo_06",
+      "position": { "x": 180, "y": 240 },
+      "step1_noun": {
+        "word": "つくえ",
+        "kanji": "机",
+        "meaning": "Meja Belajar",
+        "clue": "Tempat menaruh buku dan menulis saat kelas...",
+        "options": ["つくえ", "たな", "ドア"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "おく",
+        "masuForm": "おきます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'おきます' (Menaruh/Meletakkan) ke bentuk santun (~てください)!",
+        "targetConjugated": "おいて",
+        "options": ["おいて", "おって", "おかないで", "おいた"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [き/ki] berubah menjadi [いて/ite]: おきます ➔ おいて."
+      },
+      "step3_sentence": {
+        "targetSentence": "つくえ の うえ に かばん を おいて ください",
+        "meaningIndonesian": "Tolong letakkan tas di atas meja",
+        "tokens": ["つくえ の", "うえ に", "かばん を", "おいて ください"],
+        "distractors": ["で", "から", "おきます"]
+      }
+    },
+    {
+      "boxId": "box_kyo_07",
+      "position": { "x": 50, "y": 180 },
+      "step1_noun": {
+        "word": "ドア",
+        "kanji": "扉",
+        "meaning": "Pintu Kelas",
+        "clue": "Pintu geser/dorong untuk keluar masuk ruangan...",
+        "options": ["ドア", "まど", "カーテン"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "しめる",
+        "masuForm": "しめます",
+        "verbGroup": "GROUP_2",
+        "missionPrompt": "Tolong ubah 'しめます' (Menutup) ke bentuk instruksi santun (~てください)!",
+        "targetConjugated": "しめて",
+        "options": ["しめて", "しめって", "しまないで", "しめた"],
+        "explanation": "Kata kerja Golongan 2: Buang [ます] tambah [て]: しめます ➔ しめて."
+      },
+      "step3_sentence": {
+        "targetSentence": "さむい ですから ドア を しめて ください",
+        "meaningIndonesian": "Karena dingin, tolong tutup pintunya",
+        "tokens": ["さむい ですから", "ドア を", "しめて ください"],
+        "distractors": ["に", "で", "しめます"]
+      }
+    },
+    {
+      "boxId": "box_kyo_08",
+      "position": { "x": 450, "y": 180 },
+      "step1_noun": {
+        "word": "まど",
+        "kanji": "窓",
+        "meaning": "Jendela Kelas",
+        "clue": "Kaca ventilasi udara di dinding samping kelas...",
+        "options": ["まど", "かがみ", "ドア"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "あける",
+        "masuForm": "あけます",
+        "verbGroup": "GROUP_2",
+        "missionPrompt": "Tolong ubah 'あけます' (Membuka) ke bentuk izin santun (~ても いいですか)!",
+        "targetConjugated": "あけて",
+        "options": ["あけて", "あけって", "あかないで", "あけた"],
+        "explanation": "Kata kerja Golongan 2: Buang [ます] tambah [て]: あけます ➔ あけて."
+      },
+      "step3_sentence": {
+        "targetSentence": "あつい ですから まど を あけても いいですか",
+        "meaningIndonesian": "Karena panas, bolehkah saya membuka jendela?",
+        "tokens": ["あつい ですから", "まど を", "あけても", "いいですか"],
+        "distractors": ["に", "で", "あけます"]
+      }
+    },
+    {
+      "boxId": "box_kyo_09",
+      "position": { "x": 260, "y": 240 },
+      "step1_noun": {
+        "word": "スマホ",
+        "kanji": "携帯電話",
+        "meaning": "Smartphone / HP",
+        "clue": "Telepon genggam pintar layar sentuh...",
+        "options": ["スマホ", "パソコン", "テレビ"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "つかう",
+        "masuForm": "つかいます",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'つかいます' (Memakai) ke bentuk larangan kerja (~ないで ください)!",
+        "targetConjugated": "つかわないで",
+        "options": ["つかわないで", "つかないで", "つかって", "つかわなかった"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [い/i] berubah menjadi [わ/wa] + ないで: つかいます ➔ つかわないで."
+      },
+      "step3_sentence": {
+        "targetSentence": "じゅぎょう ちゅう スマホ を つかわないで ください",
+        "meaningIndonesian": "Jangan gunakan smartphone selama pelajaran berlangsung",
+        "tokens": ["じゅぎょう ちゅう", "スマホ を", "つかわないで ください"],
+        "distractors": ["に", "で", "つかいます"]
+      }
+    },
+    {
+      "boxId": "box_kyo_10",
+      "position": { "x": 340, "y": 240 },
+      "step1_noun": {
+        "word": "ノート",
+        "kanji": "帳面",
+        "meaning": "Buku Catatan",
+        "clue": "Buku bergaris untuk mencatat penjelasan guru...",
+        "options": ["ノート", "カレンダー", "じしょ"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "みせる",
+        "masuForm": "みせます",
+        "verbGroup": "GROUP_2",
+        "missionPrompt": "Tolong ubah 'みせます' (Memperlihatkan/Menunjukkan) ke bentuk instruksi santun (~てください)!",
+        "targetConjugated": "みせて",
+        "options": ["みせて", "みせって", "みせないで", "みせた"],
+        "explanation": "Kata kerja Golongan 2: Buang [ます] tambah [て]: みせます ➔ みせて."
+      },
+      "step3_sentence": {
+        "targetSentence": "しゅくだい の ノート を みせて ください",
+        "meaningIndonesian": "Tolong perlihatkan buku PR catatan Anda",
+        "tokens": ["しゅくだい の", "ノート を", "みせて ください"],
+        "distractors": ["で", "に", "みせます"]
+      }
+    },
+    {
+      "boxId": "box_kyo_11",
+      "position": { "x": 120, "y": 320 },
+      "step1_noun": {
+        "word": "はさみ",
+        "kanji": "鋏",
+        "meaning": "Gunting Kertas",
+        "clue": "Dua bilah pisau menyilang untuk memotong kertas...",
+        "options": ["はさみ", "カッター", "ものさし"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "かす",
+        "masuForm": "かします",
+        "verbGroup": "GROUP_1",
+        "missionPrompt": "Tolong ubah 'かします' (Meminjamkan) ke bentuk santun (~てください)!",
+        "targetConjugated": "かして",
+        "options": ["かして", "かしてって", "かさないで", "かした"],
+        "explanation": "Kata kerja Golongan 1 berakhiran [し/shi] berubah menjadi [して/shite]: かします ➔ かして."
+      },
+      "step3_sentence": {
+        "targetSentence": "すみません はさみ を かして ください",
+        "meaningIndonesian": "Permisi, tolong pinjamkan saya gunting",
+        "tokens": ["すみません", "はさみ を", "かして ください"],
+        "distractors": ["で", "に", "かします"]
+      }
+    },
+    {
+      "boxId": "box_kyo_12",
+      "position": { "x": 450, "y": 320 },
+      "step1_noun": {
+        "word": "ごみばこ",
+        "kanji": "塵箱",
+        "meaning": "Tempat Sampah",
+        "clue": "Wadah di sudut kelas untuk membuang barang bekas...",
+        "options": ["ごみばこ", "ロッカー", "たな"]
+      },
+      "step2_verb": {
+        "dictionaryForm": "すてる",
+        "masuForm": "すてます",
+        "verbGroup": "GROUP_2",
+        "missionPrompt": "Tolong ubah 'すてます' (Membuang) ke bentuk instruksi santun (~てください)!",
+        "targetConjugated": "すてて",
+        "options": ["すてて", "すてって", "すてないで", "すてた"],
+        "explanation": "Kata kerja Golongan 2: Buang [ます] tambah [て]: すてます ➔ すてて."
+      },
+      "step3_sentence": {
+        "targetSentence": "ごみばこ に ごみ を すてて ください",
+        "meaningIndonesian": "Tolong buang sampah ke dalam tempat sampah",
+        "tokens": ["ごみばこ に", "ごみ を", "すてて ください"],
+        "distractors": ["で", "を", "すてます"]
+      }
+    }
+  ]
+}
