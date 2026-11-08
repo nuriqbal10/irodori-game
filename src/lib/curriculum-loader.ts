@@ -1,5 +1,3 @@
-import fs from 'node:fs';
-import path from 'node:path';
 import kyoushitsuFallback from '../data/facility-packs/kyoushitsu-pack.json' with { type: 'json' };
 import shokudouFallback from '../data/facility-packs/shokudou-pack.json' with { type: 'json' };
 
@@ -99,43 +97,8 @@ function cleanNoSpace(val: string): string {
 }
 
 /**
- * Resolves candidate directory paths to locate shared/contracts/facility-packs.
- */
-function getCandidatePackDirectories(): string[] {
-  return [
-    'd:\\Project IRODORI\\shared\\contracts\\facility-packs',
-    'D:/Project IRODORI/shared/contracts/facility-packs',
-    path.resolve(process.cwd(), '../shared/contracts/facility-packs'),
-    path.resolve(process.cwd(), 'shared/contracts/facility-packs'),
-    path.resolve(process.cwd(), 'src/data/facility-packs'),
-  ];
-}
-
-/**
- * Attempts to read and parse a facility pack file from disk.
- */
-function loadPackFileFromDisk(fileName: string): FacilityPack | null {
-  for (const dir of getCandidatePackDirectories()) {
-    try {
-      const fullPath = path.join(dir, fileName);
-      if (fs.existsSync(fullPath)) {
-        const raw = fs.readFileSync(fullPath, 'utf-8');
-        const parsed = JSON.parse(raw) as FacilityPack;
-        if (parsed && parsed.facilityId && Array.isArray(parsed.boxes)) {
-          return parsed;
-        }
-      }
-    } catch {
-      // ignore read/parse errors for this candidate
-    }
-  }
-  return null;
-}
-
-/**
  * Loads a facility pack by identifier or keyword.
- * Reads dynamically from 'd:\Project IRODORI\shared\contracts\facility-packs' first,
- * with graceful fallback to cached or bundled pack data.
+ * Uses bundled facility packs with in-memory caching (edge-safe, serverless-ready).
  *
  * @param facilityId - e.g. 'fac_kyoushitsu', 'kyoushitsu', 'fac_shokudou', 'shokudou'
  */
@@ -155,26 +118,7 @@ export function getFacilityPack(facilityId: string): FacilityPack | null {
     return packCache.get(rawId)!;
   }
 
-  // 2. Try loading from disk (shared/contracts/facility-packs)
-  const fileCandidates = [
-    `${withoutPrefix}-pack.json`,
-    `${withPrefix}.json`,
-    `${withoutPrefix}.json`,
-    'kyoushitsu-pack.json',
-    'shokudou-pack.json'
-  ];
-
-  for (const candidate of fileCandidates) {
-    if (candidate.includes(withoutPrefix)) {
-      const loaded = loadPackFileFromDisk(candidate);
-      if (loaded) {
-        packCache.set(loaded.facilityId.toLowerCase(), loaded);
-        return loaded;
-      }
-    }
-  }
-
-  // 3. Match against built-in packs
+  // 2. Match against built-in packs directly
   if (BUILTIN_PACKS[withPrefix]) {
     packCache.set(withPrefix, BUILTIN_PACKS[withPrefix]);
     return BUILTIN_PACKS[withPrefix];

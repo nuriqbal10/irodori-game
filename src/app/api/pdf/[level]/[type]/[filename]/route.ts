@@ -29,10 +29,10 @@ export async function GET(
     return new NextResponse('PDF category not found', { status: 404 });
   }
 
-  let filePath = path.resolve(process.cwd(), '..', folderName, decodedFilename);
-  if (!fs.existsSync(filePath)) {
-    filePath = path.resolve(process.cwd(), folderName, decodedFilename);
-    if (!fs.existsSync(filePath)) {
+  let filePath = path.resolve(/*turbopackIgnore: true*/ process.cwd(), '..', folderName, decodedFilename);
+  if (!fs.existsSync(/*turbopackIgnore: true*/ filePath)) {
+    filePath = path.resolve(/*turbopackIgnore: true*/ process.cwd(), folderName, decodedFilename);
+    if (!fs.existsSync(/*turbopackIgnore: true*/ filePath)) {
       return new NextResponse('PDF file not found: ' + decodedFilename, { status: 404 });
     }
   }

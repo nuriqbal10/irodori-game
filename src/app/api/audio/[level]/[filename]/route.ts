@@ -21,16 +21,16 @@ export async function GET(
   }
 
   // Base directory is D:\Project IRODORI
-  const filePath = path.resolve(process.cwd(), '..', folderName, decodedFilename);
+  const filePath = path.resolve(/*turbopackIgnore: true*/ process.cwd(), '..', folderName, decodedFilename);
 
-  if (!fs.existsSync(filePath)) {
-    const fallbackPath = path.resolve(process.cwd(), folderName, decodedFilename);
-    if (!fs.existsSync(fallbackPath)) {
+  if (!fs.existsSync(/*turbopackIgnore: true*/ filePath)) {
+    const fallbackPath = path.resolve(/*turbopackIgnore: true*/ process.cwd(), folderName, decodedFilename);
+    if (!fs.existsSync(/*turbopackIgnore: true*/ fallbackPath)) {
       return new NextResponse('Audio file not found: ' + decodedFilename, { status: 404 });
     }
   }
 
-  const targetPath = fs.existsSync(filePath) ? filePath : path.resolve(process.cwd(), folderName, decodedFilename);
+  const targetPath = fs.existsSync(/*turbopackIgnore: true*/ filePath) ? filePath : path.resolve(/*turbopackIgnore: true*/ process.cwd(), folderName, decodedFilename);
   const stat = fs.statSync(targetPath);
   const fileSize = stat.size;
   const range = request.headers.get('range');

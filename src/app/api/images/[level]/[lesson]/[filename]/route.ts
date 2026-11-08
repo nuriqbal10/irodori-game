@@ -22,11 +22,11 @@ export async function GET(
   }
 
   // Base directory is D:\Project IRODORI
-  let filePath = path.resolve(process.cwd(), '..', folderName, decodedLesson, decodedFilename);
+  let filePath = path.resolve(/*turbopackIgnore: true*/ process.cwd(), '..', folderName, decodedLesson, decodedFilename);
 
-  if (!fs.existsSync(filePath)) {
-    filePath = path.resolve(process.cwd(), folderName, decodedLesson, decodedFilename);
-    if (!fs.existsSync(filePath)) {
+  if (!fs.existsSync(/*turbopackIgnore: true*/ filePath)) {
+    filePath = path.resolve(/*turbopackIgnore: true*/ process.cwd(), folderName, decodedLesson, decodedFilename);
+    if (!fs.existsSync(/*turbopackIgnore: true*/ filePath)) {
       return new NextResponse('Image not found: ' + decodedFilename, { status: 404 });
     }
   }
