@@ -2,8 +2,6 @@ import { NextResponse } from 'next/server';
 import { roomsStore, generateRoomPin, QuizRoom } from '@/lib/room-store';
 import { LPK_CHAPTERS } from '@/data/lpk-curriculum-catalog';
 
-export const dynamic = 'force-dynamic';
-
 export async function POST(req: Request) {
   try {
     const body = await req.json();

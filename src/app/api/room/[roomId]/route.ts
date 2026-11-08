@@ -1,8 +1,6 @@
 import { NextResponse } from 'next/server';
 import { roomsStore } from '@/lib/room-store';
 
-export const dynamic = 'force-dynamic';
-
 export async function GET(
   req: Request,
   { params }: { params: Promise<{ roomId: string }> }

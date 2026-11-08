@@ -7,8 +7,6 @@ import {
   STEP_POINTS 
 } from '@/lib/curriculum-loader';
 
-export const dynamic = 'force-dynamic';
-
 interface SolveRequestBody {
   playerId: string;
   facilityId: string;
